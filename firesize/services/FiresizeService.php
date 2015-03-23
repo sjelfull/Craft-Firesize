@@ -152,11 +152,12 @@ class FiresizeService extends BaseApplicationComponent {
         $crops = array(
             'top'                                                           => 'g_north',
             'top-left|topleft|left-top|topleft|g_northwest'                 => 'g_northwest',
-            'center|g_center'                                               => 'g_center',
-            'bottom-right|bottomright|right-bottom|bottomright|g_southeast' => 'g_southeast',
-            'bottom|g_south'                                                => 'g_south',
-            'bottom-left|bottomleft|left-bottom|leftbottom|g_southwest'     => 'g_southwest',
             'top-right|topright|right-top|righttop|g_northeast'             => 'g_northeast',
+            'center|g_center'                                               => 'g_center',
+            'bottom|g_south'                                                => 'g_south',
+            'bottom-right|bottomright|right-bottom|bottomright|g_southeast' => 'g_southeast',
+            'bottom-left|bottomleft|left-bottom|leftbottom|g_southwest'     => 'g_southwest',
+            'left|g_west'                                                  => 'g_west',
             'right|g_east'                                                  => 'g_east',
             'none|false|g_none'                                             => 'g_none',
         );

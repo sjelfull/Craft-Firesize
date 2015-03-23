@@ -44,7 +44,7 @@ or
     </tr>
     <tr>
         <td>width</td>
-        <td>Image width (Will resize proportionally if only one dimension is specified.) </td>
+        <td>Image width (will resize proportionally if only one dimension is specified.) </td>
     </tr>
     <tr>
         <td>height</td>
@@ -52,7 +52,7 @@ or
     </tr>
     <tr>
         <td>crop</td>
-        <td>Supported values are: top, top-left, center, bottom, bottom-left, top-right, right, none/false</td>
+        <td>Supported values are: top, top-left, top-right, center, left, right, bottom, bottom-left, bottom-right, none/false</td>
     </tr>
     <tr>
         <td>format</td>
