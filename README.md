@@ -2,7 +2,7 @@
 
 Use [Firesize](http://www.firesize.com/) to super-quickly resize images on the fly, with built-in CDN.
 
-Note: The Firesize service is in development over at [Assembly](https://assembly.com/firesize), and will probably cost money in the future. It may also look like it service will be Heroku-exclusive for some time, while the team develop the system for users & billing.
+*Note: The Firesize service is in development over at [Assembly](https://assembly.com/firesize), and will probably cost money in the future. It may also look like it service will be Heroku-exclusive for some time, while the team develop the system for users & billing. I'll update the plugin with whatever options they add in the future.*
 
 ### Usage
 
