@@ -37,9 +37,7 @@ class FiresizePlugin extends BasePlugin {
 
     public function getSettingsHtml()
     {
-        return craft()->templates->render('firesize/_settings', array(
-            'settings' => $this->getSettings()
-        ));
+        return false;
     }
 
 }
