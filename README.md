@@ -63,7 +63,7 @@ or
         <td>If the image file has multiple frames/layers (PSD, like an animated gif for instance, only the frame with the index specified will be selected.</td>
     </tr>
     <tr>
-        <td colspan="2">If using the img method, you can also set these options</td>
+        <td colspan="2"><strong>If using the img method, you can also set these options</strong></td>
     </tr>
     <tr>
         <td>alt</td>
