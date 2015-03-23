@@ -2,7 +2,7 @@
 
 Use [Firesize](http://www.firesize.com/) to super-quickly resize images on the fly, with built-in CDN.
 
-Note: The Firesize service is in development over on [Assembly](https://assembly.com/firesize), and will probably cost money in the future. It may also look like it service will be Heroku-exclusive for some time, while the team develop the system for users & billing.
+Note: The Firesize service is in development over at [Assembly](https://assembly.com/firesize), and will probably cost money in the future. It may also look like it service will be Heroku-exclusive for some time, while the team develop the system for users & billing.
 
 ### Usage
 
@@ -35,17 +35,45 @@ or
 
 ```
 
+
 ## Options
-| Option          | Description  |
-| -------------   | -----|
-| width           | Image width (Will resize proportionally if only one dimension is specified.) |
-| height          | Image height |
-| crop            | Supported values are: top, top-left, center, bottom, bottom-left, top-right, right, none/false |
-| format          | Convert to format. Supported values are: png, jpg, jpeg, gif |
-| frame           | If the image file has multiple frames/layers (PSD, like an animated gif for instance, only the frame with the index specified will be selected. |
-| If using the img method, you can also set these options |
-| alt             | Sets the alternative text for the img tag |
-| class           | Set class attribute |
+<table>
+    <tr>
+        <td><strong>Option</strong></td>
+        <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>Image width (Will resize proportionally if only one dimension is specified.) </td>
+    </tr>
+    <tr>
+        <td>height</td>
+        <td>Image height </td>
+    </tr>
+    <tr>
+        <td>crop</td>
+        <td>Supported values are: top, top-left, center, bottom, bottom-left, top-right, right, none/false</td>
+    </tr>
+    <tr>
+        <td>format</td>
+        <td>Convert to format. Supported values are: png, jpg, jpeg, gif </td>
+    </tr>
+    <tr>
+        <td>frame</td>
+        <td>If the image file has multiple frames/layers (PSD, like an animated gif for instance, only the frame with the index specified will be selected.</td>
+    </tr>
+    <tr>
+        <td colspan="2">If using the img method, you can also set these options</td>
+    </tr>
+    <tr>
+        <td>alt</td>
+        <td>Sets the alternative text for the img tag</td>
+    </tr>
+    <tr>
+        <td>class</td>
+        <td>Set class attribute</td>
+    </tr>
+</table>
 
 ## License
 
