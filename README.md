@@ -60,7 +60,7 @@ or
     </tr>
     <tr>
         <td>frame</td>
-        <td>If the image file has multiple frames/layers (PSD, like an animated gif for instance, only the frame with the index specified will be selected.</td>
+        <td>If the image file has multiple frames/layers, like a animated gif or PSD for instance, only the frame with the index specified will be selected.</td>
     </tr>
     <tr>
         <td colspan="2"><strong>If using the img method, you can also set these options</strong></td>
